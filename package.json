@@ -2,17 +2,18 @@
   "name": "generator-learn",
   "version": "1.0.0",
   "description": "learn to create scafold",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "app",
-    "router"
+    "app"
   ],
   "author": "DreamerKing",
   "license": "MIT",
   "dependencies": {
-    "yeoman-generator": "^4.1.0"
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^4.1.0",
+    "yosay": "^2.0.2"
   }
 }
